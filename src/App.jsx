@@ -19,7 +19,7 @@ const LandingPage = () => {
         isScrolled ? 'bg-slate-900/95 shadow-lg' : 'bg-transparent'
       }`}>
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold text-blue-400">Quantum Edge</div>
+          <div className="text-2xl font-bold text-blue-400">Onyx Devs Lab</div>
           <div className="space-x-8">
             <a href="#solutions" className="hover:text-blue-400 transition-colors">Solutions</a>
             <a href="#work" className="hover:text-blue-400 transition-colors">Our Work</a>
@@ -32,7 +32,7 @@ const LandingPage = () => {
       <header className="pt-32 pb-20 px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10" />
         <div className="container mx-auto relative">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto">
             <h1 className="text-6xl font-bold mb-6 leading-tight">
               We Build
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
@@ -45,9 +45,11 @@ const LandingPage = () => {
               for fast-growing companies. We turn your boldest tech initiatives into reality.
             </p>
             <div className="flex gap-4">
-              <button className="bg-blue-500 hover:bg-blue-600 px-8 py-3 rounded-lg flex items-center gap-2 transition-colors">
-                Schedule Consultation
-                <ArrowRight size={20} />
+            <button className="bg-blue-500 hover:bg-blue-600 px-8 py-3 rounded-lg flex items-center gap-2 transition-colors">
+                <a href="mailto:info@onyxdevslab.com" className="flex items-center gap-2">
+                  Schedule Consultation
+                  <ArrowRight size={20} />
+                </a>
               </button>
               <button className="border border-gray-600 hover:border-blue-400 px-8 py-3 rounded-lg transition-colors">
                 View Case Studies
@@ -102,8 +104,10 @@ const LandingPage = () => {
             of what's possible in technology.
           </p>
           <button className="bg-blue-500 hover:bg-blue-600 px-8 py-3 rounded-lg inline-flex items-center gap-2 transition-colors">
-            Start a Conversation
-            <ArrowRight size={20} />
+            <a href="mailto:info@onyxdevslab.com" className="flex items-center gap-2">
+              Start a Conversation
+              <ArrowRight size={20} />
+            </a>
           </button>
         </div>
       </section>
@@ -113,32 +117,18 @@ const LandingPage = () => {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="col-span-2">
-              <h3 className="text-xl font-bold mb-4">Quantum Edge</h3>
+              <h3 className="text-xl font-bold mb-4">Onyx Devs Lab</h3>
               <p className="text-gray-400 max-w-md">
                 Engineering excellence delivered through careful attention to detail,
                 robust architecture, and a deep understanding of your business needs.
               </p>
             </div>
-            <div>
+            <div className="col-span-2">
               <h3 className="text-xl font-bold mb-4">Contact</h3>
               <p className="text-gray-400">
-                hello@quantumedge.dev<br />
-                San Francisco & New York
+                hello@onyxdevslab.com<br />
+                22 Sin Ming Lane #06-76 Midview City Singapore 573969
               </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold mb-4">Connect</h3>
-              <div className="space-y-2">
-                <a href="#" className="text-gray-400 hover:text-blue-400 flex items-center gap-2 transition-colors">
-                  LinkedIn <ExternalLink size={16} />
-                </a>
-                <a href="#" className="text-gray-400 hover:text-blue-400 flex items-center gap-2 transition-colors">
-                  GitHub <ExternalLink size={16} />
-                </a>
-                <a href="#" className="text-gray-400 hover:text-blue-400 flex items-center gap-2 transition-colors">
-                  Twitter <ExternalLink size={16} />
-                </a>
-              </div>
             </div>
           </div>
         </div>
